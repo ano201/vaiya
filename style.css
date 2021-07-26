@@ -1,0 +1,22 @@
+*{
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+p{
+  line-height: 10px;
+  font-size: 10px;
+  background: url(vaiya.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
+}
+
+@media only screen and (max-width: 688px) {
+  p{
+  line-height: 5px;
+  font-size: 5px;
+}
+}
